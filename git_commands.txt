@@ -1,0 +1,73 @@
+GIT COMMANDS USED IN THE ASSIGNMENT
+
+1. `git init`
+   Initializes a new Git repository in the project folder.
+
+2. `git branch -M main`
+   Renames the current branch to main.
+
+3. `git status`
+   Displays the current repository status and modified or untracked files.
+
+4. `git add index.html about.html`
+   Stages the HTML files for the initial commit.
+
+5. `git commit -m "Initial commit - add project HTML files"`
+   Saves the initial project files in the repository history.
+
+6. `git log --oneline`
+   Displays the commit history in a compact format.
+
+7. `git branch feature`
+   Creates a new branch named feature.
+
+8. `git switch feature`
+   Switches the working branch to feature.
+
+9. `git add about.html`
+   Stages the modified about.html file.
+
+10. `git commit -m "Add game collection details to about page"`
+    Records the changes made on the feature branch.
+
+11. `git log --oneline --all --decorate`
+    Displays commits from all branches with branch labels.
+
+12. `git switch main`
+    Switches back to the main branch.
+
+13. `git merge feature`
+    Integrates the feature branch changes into main.
+
+14. `git check-ignore debug.log temp/`
+    Checks whether the specified log file and temporary folder are ignored by Git.
+
+15. `git add .gitignore`
+    Stages the .gitignore configuration file.
+
+16. `git commit -m "Add gitignore configuration"`
+    Records the ignore rules in the repository history.
+
+17. `git add undo_demo.txt`
+    Stages the demonstration file for the revert operation.
+
+18. `git commit -m "Add file for revert demonstration"`
+    Creates an additional commit to demonstrate Git revert.
+
+19. `git revert --no-edit HEAD`
+    Reverses the changes introduced by the latest commit while preserving the commit history.
+
+20. `Test-Path undo_demo.txt`
+    Checks whether the demonstration file still exists after the revert.
+
+21. `git remote add origin https://github.com/shaik-irfa/GitHub-Assignment-2026.git`
+    Connects the local repository to the public GitHub repository.
+
+22. `git remote -v`
+    Displays the configured remote repository URLs.
+
+23. `git push -u origin main`
+    Uploads the main branch and its commit history to GitHub and establishes upstream tracking.
+
+24. `git push -u origin feature`
+    Uploads the feature branch to GitHub and establishes upstream tracking.
